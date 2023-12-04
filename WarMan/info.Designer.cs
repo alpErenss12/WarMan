@@ -30,6 +30,7 @@
         {
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(info));
             panel1 = new Panel();
+            label11 = new Label();
             label10 = new Label();
             pictureBox4 = new PictureBox();
             BtnClose = new Button();
@@ -39,17 +40,10 @@
             label1 = new Label();
             label9 = new Label();
             pictureBox3 = new PictureBox();
-            label8 = new Label();
-            label7 = new Label();
-            label6 = new Label();
-            label5 = new Label();
-            pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
-            label11 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
@@ -67,17 +61,21 @@
             panel1.Controls.Add(label1);
             panel1.Controls.Add(label9);
             panel1.Controls.Add(pictureBox3);
-            panel1.Controls.Add(label8);
-            panel1.Controls.Add(label7);
-            panel1.Controls.Add(label6);
-            panel1.Controls.Add(label5);
-            panel1.Controls.Add(pictureBox2);
             panel1.Controls.Add(pictureBox1);
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(2, 3, 2, 3);
             panel1.Name = "panel1";
             panel1.Size = new Size(638, 184);
             panel1.TabIndex = 0;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Location = new Point(434, 123);
+            label11.Name = "label11";
+            label11.Size = new Size(186, 15);
+            label11.TabIndex = 1;
+            label11.Text = "Devam etmek için; ENTER/Tamam";
             // 
             // label10
             // 
@@ -173,57 +171,6 @@
             pictureBox3.TabIndex = 13;
             pictureBox3.TabStop = false;
             // 
-            // label8
-            // 
-            label8.AutoSize = true;
-            label8.Location = new Point(273, 19);
-            label8.Margin = new Padding(2, 0, 2, 0);
-            label8.Name = "label8";
-            label8.Size = new Size(57, 15);
-            label8.TabIndex = 12;
-            label8.Text = "Yukarı git";
-            // 
-            // label7
-            // 
-            label7.AutoSize = true;
-            label7.Location = new Point(332, 64);
-            label7.Margin = new Padding(2, 0, 2, 0);
-            label7.Name = "label7";
-            label7.Size = new Size(49, 15);
-            label7.TabIndex = 11;
-            label7.Text = "Sağa git";
-            // 
-            // label6
-            // 
-            label6.AutoSize = true;
-            label6.Location = new Point(273, 151);
-            label6.Margin = new Padding(2, 0, 2, 0);
-            label6.Name = "label6";
-            label6.Size = new Size(53, 15);
-            label6.TabIndex = 10;
-            label6.Text = "Aşağı git";
-            // 
-            // label5
-            // 
-            label5.AutoSize = true;
-            label5.Location = new Point(223, 64);
-            label5.Margin = new Padding(2, 0, 2, 0);
-            label5.Name = "label5";
-            label5.Size = new Size(46, 15);
-            label5.TabIndex = 9;
-            label5.Text = "Sola git";
-            // 
-            // pictureBox2
-            // 
-            pictureBox2.Image = (Image)resources.GetObject("pictureBox2.Image");
-            pictureBox2.Location = new Point(196, 0);
-            pictureBox2.Margin = new Padding(2, 3, 2, 3);
-            pictureBox2.Name = "pictureBox2";
-            pictureBox2.Size = new Size(207, 188);
-            pictureBox2.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox2.TabIndex = 4;
-            pictureBox2.TabStop = false;
-            // 
             // pictureBox1
             // 
             pictureBox1.Image = (Image)resources.GetObject("pictureBox1.Image");
@@ -234,15 +181,6 @@
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 3;
             pictureBox1.TabStop = false;
-            // 
-            // label11
-            // 
-            label11.AutoSize = true;
-            label11.Location = new Point(434, 123);
-            label11.Name = "label11";
-            label11.Size = new Size(186, 15);
-            label11.TabIndex = 1;
-            label11.Text = "Devam etmek için; ENTER/Tamam";
             // 
             // info
             // 
@@ -263,7 +201,6 @@
             panel1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox4).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox3).EndInit();
-            ((System.ComponentModel.ISupportInitialize)pictureBox2).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
@@ -273,13 +210,8 @@
         private Panel panel1;
         private Button BtnClose;
         private PictureBox pictureBox1;
-        private PictureBox pictureBox2;
         private Label label9;
         private PictureBox pictureBox3;
-        private Label label8;
-        private Label label7;
-        private Label label6;
-        private Label label5;
         private Label label4;
         private Label label3;
         private Label label2;
