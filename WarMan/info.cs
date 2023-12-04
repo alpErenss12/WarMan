@@ -1,7 +1,4 @@
-﻿using System;
-using System.Windows.Forms;
-
-namespace WarMan
+﻿namespace WarMan
 {
     public partial class info : Form
     {
@@ -16,7 +13,7 @@ namespace WarMan
             Duraklat duraklat = Application.OpenForms["Duraklat"] as Duraklat;
             if (game != null && game.Visible)
             {
-                if(duraklat == null)
+                if (duraklat == null)
                 {
                     game.zamanlayici.Start();
                 }

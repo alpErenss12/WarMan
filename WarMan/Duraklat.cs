@@ -1,4 +1,4 @@
-﻿    namespace WarMan
+﻿namespace WarMan
 {
     public partial class Duraklat : Form
     {

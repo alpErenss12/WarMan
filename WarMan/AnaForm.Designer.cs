@@ -44,6 +44,7 @@
             btnPlay = new Button();
             label4 = new Label();
             txtGamerName = new TextBox();
+            btnCikis = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
@@ -159,6 +160,17 @@
             txtGamerName.Enter += txtGamerName_Enter;
             txtGamerName.Leave += txtGamerName_Leave;
             // 
+            // btnCikis
+            // 
+            btnCikis.BackColor = Color.Gray;
+            btnCikis.FlatAppearance.BorderSize = 2;
+            btnCikis.FlatAppearance.MouseOverBackColor = Color.Silver;
+            resources.ApplyResources(btnCikis, "btnCikis");
+            btnCikis.ForeColor = Color.White;
+            btnCikis.Name = "btnCikis";
+            btnCikis.UseVisualStyleBackColor = false;
+            btnCikis.Click += btnCikis_Click;
+            // 
             // StartScreen
             // 
             AcceptButton = btnPlay;
@@ -166,6 +178,7 @@
             BackColor = Color.MidnightBlue;
             resources.ApplyResources(this, "$this");
             CausesValidation = false;
+            Controls.Add(btnCikis);
             Controls.Add(txtGamerName);
             Controls.Add(panel1);
             Controls.Add(label5);
@@ -207,5 +220,6 @@
         private Label label6;
         private Label label7;
         private TextBox txtGamerName;
+        private Button btnCikis;
     }
 }

@@ -1,8 +1,3 @@
-using System;
-using System.Runtime.InteropServices;
-using System.Windows.Forms;
-using System.Drawing;
-
 namespace WarMan
 {
     public partial class StartScreen : Form
@@ -90,7 +85,7 @@ namespace WarMan
             {
                 if (e.KeyCode == Keys.Escape)
                 {
-                    this.ActiveControl = null;
+                    ActiveControl = null;
                 }
             }
             if (e.KeyCode == Keys.Enter)
@@ -112,6 +107,11 @@ namespace WarMan
         }
 
         private void StartScreen_FormClosed(object sender, FormClosedEventArgs e)
+        {
+            Application.Exit();
+        }
+
+        private void btnCikis_Click(object sender, EventArgs e)
         {
             Application.Exit();
         }

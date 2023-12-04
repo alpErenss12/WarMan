@@ -262,7 +262,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
+    <value>4</value>
   </data>
   <data name="pictureBox2.Image" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
     <value>
@@ -319,6 +319,114 @@
   </data>
   <data name="panel1.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
+  </data>
+  <data name="&gt;&gt;label7.Name" xml:space="preserve">
+    <value>label7</value>
+  </data>
+  <data name="&gt;&gt;label7.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label7.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label7.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;label6.Name" xml:space="preserve">
+    <value>label6</value>
+  </data>
+  <data name="&gt;&gt;label6.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label6.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label6.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;PBBestScores.Name" xml:space="preserve">
+    <value>PBBestScores</value>
+  </data>
+  <data name="&gt;&gt;PBBestScores.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PBBestScores.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PBBestScores.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;PBinfo.Name" xml:space="preserve">
+    <value>PBinfo</value>
+  </data>
+  <data name="&gt;&gt;PBinfo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;PBinfo.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;PBinfo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>72, 355</value>
+  </data>
+  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>333, 231</value>
+  </data>
+  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
+    <value>panel1</value>
+  </data>
+  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
+    <value>2</value>
   </data>
   <data name="label7.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -588,30 +696,6 @@ basabilirsiniz.
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
-  <data name="panel1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>72, 355</value>
-  </data>
-  <data name="panel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 4, 3, 4</value>
-  </data>
-  <data name="panel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>333, 231</value>
-  </data>
-  <data name="panel1.TabIndex" type="System.Int32, mscorlib">
-    <value>4</value>
-  </data>
-  <data name="&gt;&gt;panel1.Name" xml:space="preserve">
-    <value>panel1</value>
-  </data>
-  <data name="&gt;&gt;panel1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;panel1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;panel1.ZOrder" xml:space="preserve">
-    <value>1</value>
-  </data>
   <data name="lblwarning.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
   </data>
@@ -643,7 +727,7 @@ basabilirsiniz.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblwarning.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>5</value>
   </data>
   <data name="label5.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -676,7 +760,7 @@ basabilirsiniz.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label5.ZOrder" xml:space="preserve">
-    <value>2</value>
+    <value>3</value>
   </data>
   <metadata name="btnPlay.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -715,7 +799,7 @@ basabilirsiniz.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;btnPlay.ZOrder" xml:space="preserve">
-    <value>5</value>
+    <value>6</value>
   </data>
   <data name="label4.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -748,7 +832,7 @@ basabilirsiniz.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label4.ZOrder" xml:space="preserve">
-    <value>6</value>
+    <value>7</value>
   </data>
   <data name="txtGamerName.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
     <value>Top, Right</value>
@@ -778,6 +862,42 @@ basabilirsiniz.
     <value>$this</value>
   </data>
   <data name="&gt;&gt;txtGamerName.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <metadata name="btnCikis.Locked" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
+    <value>True</value>
+  </metadata>
+  <data name="btnCikis.FlatStyle" type="System.Windows.Forms.FlatStyle, System.Windows.Forms">
+    <value>Flat</value>
+  </data>
+  <data name="btnCikis.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 15pt, style=Bold</value>
+  </data>
+  <data name="btnCikis.Location" type="System.Drawing.Point, System.Drawing">
+    <value>747, 473</value>
+  </data>
+  <data name="btnCikis.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>3, 4, 3, 4</value>
+  </data>
+  <data name="btnCikis.Size" type="System.Drawing.Size, System.Drawing">
+    <value>399, 69</value>
+  </data>
+  <data name="btnCikis.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="btnCikis.Text" xml:space="preserve">
+    <value>Oyundan Çık</value>
+  </data>
+  <data name="&gt;&gt;btnCikis.Name" xml:space="preserve">
+    <value>btnCikis</value>
+  </data>
+  <data name="&gt;&gt;btnCikis.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;btnCikis.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;btnCikis.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -3321,6 +3441,30 @@ basabilirsiniz.
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
     <value>1363, 658</value>
+  </data>
+  <data name="$this.Icon" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        AAABAAEAEBAAAAEAIABoBAAAFgAAACgAAAAQAAAAIAAAAAEAIAAAAAAAAAQAAHYAAAB2AAAAAAAAAAAA
+        AAAAAAAAAAAAE0UjAKA1HQCtMRoAqDUdAK09IAC3MRoAqDEaAKg9IAC3NR0ArTEaAKg1HQCtRCMAoQAA
+        ABIAAAAAAAAAAFQrAOHIYwD/ikUA/207AP+QSAD/xWEA/2Y1AP9mNQD/yGMA/4pFAP9tOwD/kEgA/8lk
+        AP9UKwDgAAAAAAAAAABjMgDzqlcA/8lkAP8bDwD/xWEA/6pXAP9vOAD/aTYA/6pXAP/JZAD/Gw8A/8Vh
+        AP+qVwD/ZzUA8gAAAAAVDgBtWTgA64NQAPuEUQD6g1EA9YRRAPqDUAD8g1EA94NRAPeDUAD8hFEA+oNR
+        APV9TgD6ZzwA+jYdALAAAAAAAAAAB0ctAMrxmwD//6QA//+kAP//pAD//6QA//+kAP//pAD//6QA//+k
+        AP//pAD//6QA//+kAP9mQQDeAAAAFQAAAAAAAAATPCYAqWZCANJjQADfZUIC4WhECOlnQAXuZ0AF7mdA
+        Be5nQAXuaUQK9WtGDflsTBP3Vj0Q+FxZU1kAAAAiAAAAKwAAAAAAAAAAAAAAAN/f30CXkoz/r1gC/9ps
+        AP/abAD/2mwA/9psAP+jUQD/jo6O/76+vv9OTk5zCiEuoBZUc/MZQVHkI1pv2yNab9srX3PkPGp8/2lD
+        Gf/abAD/2mwA/9psAP/abAD/o1EA/29vb/+UlJT/JiYmoAcdKXENLj+1Ei44nBIuOpsSLjqbL0dRtGNz
+        ev9bWVL/ZEEe/2RAHP9iQBz/XDsW+043IP+jo6P/tLS0/yYmJqAAAAAUIyMjw3Z2dtBBQUHtdXV103h4
+        eOE+Pj7/nZ2d/52dnf85VWD/TcT0/ziNrv+NjY3/n5+f/5+fn/8mJiagGRkZh4GBgf+MjIz/eHh4/4yM
+        jP+JiYn/MzMz/4yMjP+MjIz/anBy/0JTWv9DT1X/Z2dn/6qqqv+qqqr/JiYmoB8fH1pbW1v6gICA/zc3
+        N/+MjIz/enp6/2hoaP+JiYn/eXl5/01NTf+MjIz/Z2dn/oKCgv+qqqr/qqqq/yYmJqAAAAAAJCQkiDY2
+        Nv1sbGz/g4OD/4GBgf+MjIz/Pz8//4yMjP9aWlr/SUlJ/z8/P/F+fn7/n5+f/5+fn/8mJiagAAAAAAAA
+        AA0yMjLaRERE/39/f/8wMDD7YGBg/zc3N/9fX1//R0dH/9DQ0P9WVlboqqqq/7S0tP+0tLT/JiYmoAAA
+        AAAAAAAAFBQUMyYmJrQmJiazGhoawby8vP/f39//ubm5/8/Pz//f39//Ghoa1isrK5krKyuZKysrmSAg
+        IEgAAAAAAAAAAAAAAAAAAAAAAAAAACcnJ0gyMjKZMjIymTIyMpkyMjKZMjIymScnJ0gAAAAAAAAAAAAA
+        AAAAAAAAgAEAAIABAACAAQAAAAEAAAAAAACAAAAAOAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAIAA
+        AADAAAAA+A8AAA==
+</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 4, 3, 4</value>
