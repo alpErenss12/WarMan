@@ -65,13 +65,13 @@
             panel1.Location = new Point(0, 0);
             panel1.Margin = new Padding(2, 3, 2, 3);
             panel1.Name = "panel1";
-            panel1.Size = new Size(638, 184);
+            panel1.Size = new Size(419, 184);
             panel1.TabIndex = 0;
             // 
             // label11
             // 
             label11.AutoSize = true;
-            label11.Location = new Point(434, 123);
+            label11.Location = new Point(214, 133);
             label11.Name = "label11";
             label11.Size = new Size(186, 15);
             label11.TabIndex = 1;
@@ -80,7 +80,7 @@
             // label10
             // 
             label10.AutoSize = true;
-            label10.Location = new Point(434, 94);
+            label10.Location = new Point(214, 104);
             label10.Margin = new Padding(2, 0, 2, 0);
             label10.Name = "label10";
             label10.Size = new Size(89, 15);
@@ -90,7 +90,7 @@
             // pictureBox4
             // 
             pictureBox4.Image = (Image)resources.GetObject("pictureBox4.Image");
-            pictureBox4.Location = new Point(434, 0);
+            pictureBox4.Location = new Point(214, 10);
             pictureBox4.Margin = new Padding(2, 3, 2, 3);
             pictureBox4.Name = "pictureBox4";
             pictureBox4.Size = new Size(78, 90);
@@ -101,7 +101,7 @@
             // BtnClose
             // 
             BtnClose.FlatStyle = FlatStyle.Flat;
-            BtnClose.Location = new Point(486, 141);
+            BtnClose.Location = new Point(266, 151);
             BtnClose.Margin = new Padding(2, 3, 2, 3);
             BtnClose.Name = "BtnClose";
             BtnClose.Size = new Size(118, 28);
@@ -153,7 +153,7 @@
             // label9
             // 
             label9.AutoSize = true;
-            label9.Location = new Point(526, 94);
+            label9.Location = new Point(306, 104);
             label9.Margin = new Padding(2, 0, 2, 0);
             label9.Name = "label9";
             label9.Size = new Size(101, 15);
@@ -163,7 +163,7 @@
             // pictureBox3
             // 
             pictureBox3.Image = (Image)resources.GetObject("pictureBox3.Image");
-            pictureBox3.Location = new Point(526, 0);
+            pictureBox3.Location = new Point(306, 10);
             pictureBox3.Margin = new Padding(2, 3, 2, 3);
             pictureBox3.Name = "pictureBox3";
             pictureBox3.Size = new Size(78, 90);
@@ -187,7 +187,7 @@
             AutoScaleDimensions = new SizeF(96F, 96F);
             AutoScaleMode = AutoScaleMode.Dpi;
             BackColor = Color.ForestGreen;
-            ClientSize = new Size(637, 185);
+            ClientSize = new Size(420, 185);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             KeyPreview = true;

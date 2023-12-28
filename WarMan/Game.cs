@@ -1,15 +1,10 @@
-﻿using WarMan.Concrete;
-using WarMan.Enum;
-
-namespace WarMan
+﻿namespace WarMan
 {
     public partial class Game : Form
     {
         private TimeSpan gecenSure;
         public System.Windows.Forms.Timer zamanlayici { get; set; }
         private Form duraklat;
-
-        private readonly Oyun _oyun = new Oyun();
 
         public Game()
         {
@@ -67,18 +62,7 @@ namespace WarMan
             }
             switch (e.KeyCode)
             {
-                case Keys.Up:
-                    _oyun.hareket(Yon.Yukari);
-                    break;
-                case Keys.Down:
-                    _oyun.hareket(Yon.Asagi);
-                    break;
-                case Keys.Left:
-                    _oyun.hareket(Yon.Geri);
-                    break;
-                case Keys.Right:
-                    _oyun.hareket(Yon.Ileri);
-                    break;
+
             }
         }
     }

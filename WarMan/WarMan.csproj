@@ -28,9 +28,4 @@
     </EmbeddedResource>
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Abstract\" />
-    <Folder Include="Static\" />
-  </ItemGroup>
-
 </Project>
