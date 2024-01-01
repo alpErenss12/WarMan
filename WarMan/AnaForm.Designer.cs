@@ -41,10 +41,10 @@
             label1 = new Label();
             lblwarning = new Label();
             label5 = new Label();
-            btnPlay = new Button();
             label4 = new Label();
             txtGamerName = new TextBox();
             btnCikis = new Button();
+            btnPlay = new Button();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             panel1.SuspendLayout();
@@ -54,8 +54,8 @@
             // 
             // pictureBox1
             // 
-            resources.ApplyResources(pictureBox1, "pictureBox1");
             pictureBox1.BackColor = Color.Transparent;
+            resources.ApplyResources(pictureBox1, "pictureBox1");
             pictureBox1.Name = "pictureBox1";
             pictureBox1.TabStop = false;
             // 
@@ -136,16 +136,6 @@
             label5.ForeColor = Color.White;
             label5.Name = "label5";
             // 
-            // btnPlay
-            // 
-            resources.ApplyResources(btnPlay, "btnPlay");
-            btnPlay.BackColor = Color.Gray;
-            btnPlay.FlatAppearance.MouseOverBackColor = Color.Silver;
-            btnPlay.ForeColor = Color.White;
-            btnPlay.Name = "btnPlay";
-            btnPlay.UseVisualStyleBackColor = false;
-            btnPlay.Click += btnPlay_Click;
-            // 
             // label4
             // 
             resources.ApplyResources(label4, "label4");
@@ -171,24 +161,35 @@
             btnCikis.UseVisualStyleBackColor = false;
             btnCikis.Click += btnCikis_Click;
             // 
+            // btnPlay
+            // 
+            btnPlay.BackColor = Color.Gray;
+            btnPlay.FlatAppearance.BorderSize = 2;
+            btnPlay.FlatAppearance.MouseOverBackColor = Color.Silver;
+            resources.ApplyResources(btnPlay, "btnPlay");
+            btnPlay.ForeColor = Color.White;
+            btnPlay.Name = "btnPlay";
+            btnPlay.UseVisualStyleBackColor = false;
+            btnPlay.Click += btnPlay_Click;
+            // 
             // StartScreen
             // 
-            AcceptButton = btnPlay;
             AutoScaleMode = AutoScaleMode.None;
             BackColor = Color.MidnightBlue;
             resources.ApplyResources(this, "$this");
             CausesValidation = false;
+            Controls.Add(btnPlay);
             Controls.Add(btnCikis);
             Controls.Add(txtGamerName);
             Controls.Add(panel1);
             Controls.Add(label5);
             Controls.Add(pictureBox1);
             Controls.Add(lblwarning);
-            Controls.Add(btnPlay);
             Controls.Add(label4);
             ForeColor = SystemColors.ControlText;
             FormBorderStyle = FormBorderStyle.FixedSingle;
             KeyPreview = true;
+            MaximizeBox = false;
             Name = "StartScreen";
             FormClosed += StartScreen_FormClosed;
             Load += StartScreen_Load;
@@ -213,7 +214,6 @@
         private Label label2;
         private PictureBox PBBestScores;
         private Label label3;
-        private Button btnPlay;
         private Label label4;
         private Label label5;
         private Label lblwarning;
@@ -221,5 +221,6 @@
         private Label label7;
         private TextBox txtGamerName;
         private Button btnCikis;
+        private Button btnPlay;
     }
 }

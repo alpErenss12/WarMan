@@ -11,6 +11,7 @@ namespace WarMan
             InitializeComponent();
             ActiveControl = null;
             DoubleBuffered = true;
+            oyuncuisim = string.Empty;
         }
 
         private void StartScreen_Load(object sender, EventArgs e)

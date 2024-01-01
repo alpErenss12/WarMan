@@ -129,13 +129,13 @@
     <value>10, 7</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>83, 32</value>
+    <value>163, 32</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
   </data>
   <data name="label1.Text" xml:space="preserve">
-    <value>label1</value>
+    <value>Hoş geldiniz </value>
   </data>
   <data name="&gt;&gt;label1.Name" xml:space="preserve">
     <value>label1</value>
@@ -147,7 +147,7 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
-    <value>1</value>
+    <value>5</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="lblsure.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
@@ -160,16 +160,16 @@
     <value>Century Gothic, 21.75pt, style=Bold</value>
   </data>
   <data name="lblsure.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1040, 9</value>
+    <value>1161, 9</value>
   </data>
   <data name="lblsure.Size" type="System.Drawing.Size, System.Drawing">
-    <value>102, 36</value>
+    <value>277, 36</value>
   </data>
   <data name="lblsure.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="lblsure.Text" xml:space="preserve">
-    <value>label2</value>
+    <value>Geçen Süre : 00:00</value>
   </data>
   <data name="&gt;&gt;lblsure.Name" xml:space="preserve">
     <value>lblsure</value>
@@ -181,6 +181,1398 @@
     <value>$this</value>
   </data>
   <data name="&gt;&gt;lblsure.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="man.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="man.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 116</value>
+  </data>
+  <data name="man.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="man.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;man.Name" xml:space="preserve">
+    <value>man</value>
+  </data>
+  <data name="&gt;&gt;man.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;man.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;man.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="p413.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p413.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1319, 326</value>
+  </data>
+  <data name="p413.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p413.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;p413.Name" xml:space="preserve">
+    <value>p413</value>
+  </data>
+  <data name="&gt;&gt;p413.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p413.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p413.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="p313.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p313.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1319, 221</value>
+  </data>
+  <data name="p313.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p313.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;p313.Name" xml:space="preserve">
+    <value>p313</value>
+  </data>
+  <data name="&gt;&gt;p313.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p313.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p313.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="p412.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p412.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1210, 326</value>
+  </data>
+  <data name="p412.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p412.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;p412.Name" xml:space="preserve">
+    <value>p412</value>
+  </data>
+  <data name="&gt;&gt;p412.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p412.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p412.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="p213.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p213.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1319, 116</value>
+  </data>
+  <data name="p213.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p213.TabIndex" type="System.Int32, mscorlib">
+    <value>25</value>
+  </data>
+  <data name="&gt;&gt;p213.Name" xml:space="preserve">
+    <value>p213</value>
+  </data>
+  <data name="&gt;&gt;p213.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p213.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p213.ZOrder" xml:space="preserve">
+    <value>11</value>
+  </data>
+  <data name="p411.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p411.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1101, 326</value>
+  </data>
+  <data name="p411.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p411.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;p411.Name" xml:space="preserve">
+    <value>p411</value>
+  </data>
+  <data name="&gt;&gt;p411.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p411.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p411.ZOrder" xml:space="preserve">
+    <value>14</value>
+  </data>
+  <data name="p312.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p312.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1210, 221</value>
+  </data>
+  <data name="p312.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p312.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;p312.Name" xml:space="preserve">
+    <value>p312</value>
+  </data>
+  <data name="&gt;&gt;p312.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p312.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p312.ZOrder" xml:space="preserve">
+    <value>17</value>
+  </data>
+  <data name="p410.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p410.Location" type="System.Drawing.Point, System.Drawing">
+    <value>992, 326</value>
+  </data>
+  <data name="p410.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p410.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;p410.Name" xml:space="preserve">
+    <value>p410</value>
+  </data>
+  <data name="&gt;&gt;p410.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p410.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p410.ZOrder" xml:space="preserve">
+    <value>19</value>
+  </data>
+  <data name="p212.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p212.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1210, 116</value>
+  </data>
+  <data name="p212.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p212.TabIndex" type="System.Int32, mscorlib">
+    <value>24</value>
+  </data>
+  <data name="&gt;&gt;p212.Name" xml:space="preserve">
+    <value>p212</value>
+  </data>
+  <data name="&gt;&gt;p212.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p212.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p212.ZOrder" xml:space="preserve">
+    <value>22</value>
+  </data>
+  <data name="p49.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p49.Location" type="System.Drawing.Point, System.Drawing">
+    <value>883, 326</value>
+  </data>
+  <data name="p49.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p49.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;p49.Name" xml:space="preserve">
+    <value>p49</value>
+  </data>
+  <data name="&gt;&gt;p49.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p49.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p49.ZOrder" xml:space="preserve">
+    <value>26</value>
+  </data>
+  <data name="p311.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p311.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1101, 221</value>
+  </data>
+  <data name="p311.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p311.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;p311.Name" xml:space="preserve">
+    <value>p311</value>
+  </data>
+  <data name="&gt;&gt;p311.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p311.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p311.ZOrder" xml:space="preserve">
+    <value>30</value>
+  </data>
+  <data name="p48.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p48.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 326</value>
+  </data>
+  <data name="p48.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p48.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;p48.Name" xml:space="preserve">
+    <value>p48</value>
+  </data>
+  <data name="&gt;&gt;p48.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p48.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p48.ZOrder" xml:space="preserve">
+    <value>34</value>
+  </data>
+  <data name="p211.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p211.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1101, 116</value>
+  </data>
+  <data name="p211.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p211.TabIndex" type="System.Int32, mscorlib">
+    <value>23</value>
+  </data>
+  <data name="&gt;&gt;p211.Name" xml:space="preserve">
+    <value>p211</value>
+  </data>
+  <data name="&gt;&gt;p211.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p211.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p211.ZOrder" xml:space="preserve">
+    <value>38</value>
+  </data>
+  <data name="p47.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p47.Location" type="System.Drawing.Point, System.Drawing">
+    <value>665, 326</value>
+  </data>
+  <data name="p47.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p47.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;p47.Name" xml:space="preserve">
+    <value>p47</value>
+  </data>
+  <data name="&gt;&gt;p47.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p47.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p47.ZOrder" xml:space="preserve">
+    <value>42</value>
+  </data>
+  <data name="p310.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p310.Location" type="System.Drawing.Point, System.Drawing">
+    <value>992, 221</value>
+  </data>
+  <data name="p310.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p310.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;p310.Name" xml:space="preserve">
+    <value>p310</value>
+  </data>
+  <data name="&gt;&gt;p310.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p310.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p310.ZOrder" xml:space="preserve">
+    <value>46</value>
+  </data>
+  <data name="p46.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p46.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 326</value>
+  </data>
+  <data name="p46.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p46.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;p46.Name" xml:space="preserve">
+    <value>p46</value>
+  </data>
+  <data name="&gt;&gt;p46.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p46.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p46.ZOrder" xml:space="preserve">
+    <value>50</value>
+  </data>
+  <data name="p45.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p45.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 326</value>
+  </data>
+  <data name="p45.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p45.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;p45.Name" xml:space="preserve">
+    <value>p45</value>
+  </data>
+  <data name="&gt;&gt;p45.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p45.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p45.ZOrder" xml:space="preserve">
+    <value>49</value>
+  </data>
+  <data name="p210.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p210.Location" type="System.Drawing.Point, System.Drawing">
+    <value>992, 116</value>
+  </data>
+  <data name="p210.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p210.TabIndex" type="System.Int32, mscorlib">
+    <value>22</value>
+  </data>
+  <data name="&gt;&gt;p210.Name" xml:space="preserve">
+    <value>p210</value>
+  </data>
+  <data name="&gt;&gt;p210.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p210.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p210.ZOrder" xml:space="preserve">
+    <value>45</value>
+  </data>
+  <data name="p44.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p44.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 326</value>
+  </data>
+  <data name="p44.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p44.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;p44.Name" xml:space="preserve">
+    <value>p44</value>
+  </data>
+  <data name="&gt;&gt;p44.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p44.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p44.ZOrder" xml:space="preserve">
+    <value>41</value>
+  </data>
+  <data name="p39.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p39.Location" type="System.Drawing.Point, System.Drawing">
+    <value>883, 221</value>
+  </data>
+  <data name="p39.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p39.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;p39.Name" xml:space="preserve">
+    <value>p39</value>
+  </data>
+  <data name="&gt;&gt;p39.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p39.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p39.ZOrder" xml:space="preserve">
+    <value>37</value>
+  </data>
+  <data name="p43.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p43.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 326</value>
+  </data>
+  <data name="p43.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p43.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;p43.Name" xml:space="preserve">
+    <value>p43</value>
+  </data>
+  <data name="&gt;&gt;p43.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p43.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p43.ZOrder" xml:space="preserve">
+    <value>33</value>
+  </data>
+  <data name="p29.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p29.Location" type="System.Drawing.Point, System.Drawing">
+    <value>883, 116</value>
+  </data>
+  <data name="p29.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p29.TabIndex" type="System.Int32, mscorlib">
+    <value>21</value>
+  </data>
+  <data name="&gt;&gt;p29.Name" xml:space="preserve">
+    <value>p29</value>
+  </data>
+  <data name="&gt;&gt;p29.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p29.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p29.ZOrder" xml:space="preserve">
+    <value>29</value>
+  </data>
+  <data name="p42.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p42.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 326</value>
+  </data>
+  <data name="p42.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p42.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;p42.Name" xml:space="preserve">
+    <value>p42</value>
+  </data>
+  <data name="&gt;&gt;p42.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p42.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p42.ZOrder" xml:space="preserve">
+    <value>25</value>
+  </data>
+  <data name="p38.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p38.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 221</value>
+  </data>
+  <data name="p38.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p38.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;p38.Name" xml:space="preserve">
+    <value>p38</value>
+  </data>
+  <data name="&gt;&gt;p38.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p38.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p38.ZOrder" xml:space="preserve">
+    <value>21</value>
+  </data>
+  <data name="p41.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p41.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 326</value>
+  </data>
+  <data name="p41.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p41.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;p41.Name" xml:space="preserve">
+    <value>p41</value>
+  </data>
+  <data name="&gt;&gt;p41.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p41.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p41.ZOrder" xml:space="preserve">
+    <value>18</value>
+  </data>
+  <data name="p28.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p28.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 116</value>
+  </data>
+  <data name="p28.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p28.TabIndex" type="System.Int32, mscorlib">
+    <value>20</value>
+  </data>
+  <data name="&gt;&gt;p28.Name" xml:space="preserve">
+    <value>p28</value>
+  </data>
+  <data name="&gt;&gt;p28.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p28.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p28.ZOrder" xml:space="preserve">
+    <value>15</value>
+  </data>
+  <data name="p37.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p37.Location" type="System.Drawing.Point, System.Drawing">
+    <value>665, 221</value>
+  </data>
+  <data name="p37.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p37.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;p37.Name" xml:space="preserve">
+    <value>p37</value>
+  </data>
+  <data name="&gt;&gt;p37.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p37.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p37.ZOrder" xml:space="preserve">
+    <value>12</value>
+  </data>
+  <data name="p36.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p36.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 221</value>
+  </data>
+  <data name="p36.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p36.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;p36.Name" xml:space="preserve">
+    <value>p36</value>
+  </data>
+  <data name="&gt;&gt;p36.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p36.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p36.ZOrder" xml:space="preserve">
+    <value>9</value>
+  </data>
+  <data name="p27.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p27.Location" type="System.Drawing.Point, System.Drawing">
+    <value>665, 115</value>
+  </data>
+  <data name="p27.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p27.TabIndex" type="System.Int32, mscorlib">
+    <value>19</value>
+  </data>
+  <data name="&gt;&gt;p27.Name" xml:space="preserve">
+    <value>p27</value>
+  </data>
+  <data name="&gt;&gt;p27.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p27.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p27.ZOrder" xml:space="preserve">
+    <value>6</value>
+  </data>
+  <data name="p35.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p35.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 221</value>
+  </data>
+  <data name="p35.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p35.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;p35.Name" xml:space="preserve">
+    <value>p35</value>
+  </data>
+  <data name="&gt;&gt;p35.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p35.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p35.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="p26.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p26.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 116</value>
+  </data>
+  <data name="p26.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p26.TabIndex" type="System.Int32, mscorlib">
+    <value>18</value>
+  </data>
+  <data name="&gt;&gt;p26.Name" xml:space="preserve">
+    <value>p26</value>
+  </data>
+  <data name="&gt;&gt;p26.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p26.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p26.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="p34.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p34.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 221</value>
+  </data>
+  <data name="p34.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p34.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;p34.Name" xml:space="preserve">
+    <value>p34</value>
+  </data>
+  <data name="&gt;&gt;p34.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p34.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p34.ZOrder" xml:space="preserve">
+    <value>4</value>
+  </data>
+  <data name="p25.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p25.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 116</value>
+  </data>
+  <data name="p25.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p25.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;p25.Name" xml:space="preserve">
+    <value>p25</value>
+  </data>
+  <data name="&gt;&gt;p25.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p25.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p25.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="p33.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p33.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 221</value>
+  </data>
+  <data name="p33.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p33.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;p33.Name" xml:space="preserve">
+    <value>p33</value>
+  </data>
+  <data name="&gt;&gt;p33.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p33.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p33.ZOrder" xml:space="preserve">
+    <value>10</value>
+  </data>
+  <data name="p24.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p24.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 116</value>
+  </data>
+  <data name="p24.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p24.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="&gt;&gt;p24.Name" xml:space="preserve">
+    <value>p24</value>
+  </data>
+  <data name="&gt;&gt;p24.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p24.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p24.ZOrder" xml:space="preserve">
+    <value>13</value>
+  </data>
+  <data name="p32.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p32.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 221</value>
+  </data>
+  <data name="p32.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p32.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;p32.Name" xml:space="preserve">
+    <value>p32</value>
+  </data>
+  <data name="&gt;&gt;p32.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p32.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p32.ZOrder" xml:space="preserve">
+    <value>16</value>
+  </data>
+  <data name="p23.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p23.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 116</value>
+  </data>
+  <data name="p23.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p23.TabIndex" type="System.Int32, mscorlib">
+    <value>15</value>
+  </data>
+  <data name="&gt;&gt;p23.Name" xml:space="preserve">
+    <value>p23</value>
+  </data>
+  <data name="&gt;&gt;p23.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p23.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p23.ZOrder" xml:space="preserve">
+    <value>20</value>
+  </data>
+  <data name="p31.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p31.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 221</value>
+  </data>
+  <data name="p31.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p31.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;p31.Name" xml:space="preserve">
+    <value>p31</value>
+  </data>
+  <data name="&gt;&gt;p31.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p31.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p31.ZOrder" xml:space="preserve">
+    <value>23</value>
+  </data>
+  <data name="p22.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p22.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 116</value>
+  </data>
+  <data name="p22.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p22.TabIndex" type="System.Int32, mscorlib">
+    <value>14</value>
+  </data>
+  <data name="&gt;&gt;p22.Name" xml:space="preserve">
+    <value>p22</value>
+  </data>
+  <data name="&gt;&gt;p22.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p22.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p22.ZOrder" xml:space="preserve">
+    <value>27</value>
+  </data>
+  <data name="p21.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p21.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 116</value>
+  </data>
+  <data name="p21.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p21.TabIndex" type="System.Int32, mscorlib">
+    <value>13</value>
+  </data>
+  <data name="&gt;&gt;p21.Name" xml:space="preserve">
+    <value>p21</value>
+  </data>
+  <data name="&gt;&gt;p21.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p21.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p21.ZOrder" xml:space="preserve">
+    <value>31</value>
+  </data>
+  <data name="p113.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p113.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1319, 11</value>
+  </data>
+  <data name="p113.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p113.TabIndex" type="System.Int32, mscorlib">
+    <value>12</value>
+  </data>
+  <data name="&gt;&gt;p113.Name" xml:space="preserve">
+    <value>p113</value>
+  </data>
+  <data name="&gt;&gt;p113.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p113.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p113.ZOrder" xml:space="preserve">
+    <value>35</value>
+  </data>
+  <data name="p112.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p112.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1210, 11</value>
+  </data>
+  <data name="p112.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p112.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="&gt;&gt;p112.Name" xml:space="preserve">
+    <value>p112</value>
+  </data>
+  <data name="&gt;&gt;p112.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p112.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p112.ZOrder" xml:space="preserve">
+    <value>39</value>
+  </data>
+  <data name="p111.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p111.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1101, 11</value>
+  </data>
+  <data name="p111.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p111.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="&gt;&gt;p111.Name" xml:space="preserve">
+    <value>p111</value>
+  </data>
+  <data name="&gt;&gt;p111.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p111.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p111.ZOrder" xml:space="preserve">
+    <value>43</value>
+  </data>
+  <data name="p110.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p110.Location" type="System.Drawing.Point, System.Drawing">
+    <value>992, 11</value>
+  </data>
+  <data name="p110.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p110.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="&gt;&gt;p110.Name" xml:space="preserve">
+    <value>p110</value>
+  </data>
+  <data name="&gt;&gt;p110.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p110.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p110.ZOrder" xml:space="preserve">
+    <value>47</value>
+  </data>
+  <data name="p19.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p19.Location" type="System.Drawing.Point, System.Drawing">
+    <value>883, 11</value>
+  </data>
+  <data name="p19.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p19.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="&gt;&gt;p19.Name" xml:space="preserve">
+    <value>p19</value>
+  </data>
+  <data name="&gt;&gt;p19.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p19.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p19.ZOrder" xml:space="preserve">
+    <value>51</value>
+  </data>
+  <data name="p18.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p18.Location" type="System.Drawing.Point, System.Drawing">
+    <value>774, 11</value>
+  </data>
+  <data name="p18.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p18.TabIndex" type="System.Int32, mscorlib">
+    <value>7</value>
+  </data>
+  <data name="&gt;&gt;p18.Name" xml:space="preserve">
+    <value>p18</value>
+  </data>
+  <data name="&gt;&gt;p18.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p18.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p18.ZOrder" xml:space="preserve">
+    <value>48</value>
+  </data>
+  <data name="p17.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p17.Location" type="System.Drawing.Point, System.Drawing">
+    <value>665, 11</value>
+  </data>
+  <data name="p17.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p17.TabIndex" type="System.Int32, mscorlib">
+    <value>6</value>
+  </data>
+  <data name="&gt;&gt;p17.Name" xml:space="preserve">
+    <value>p17</value>
+  </data>
+  <data name="&gt;&gt;p17.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p17.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p17.ZOrder" xml:space="preserve">
+    <value>44</value>
+  </data>
+  <data name="p16.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p16.Location" type="System.Drawing.Point, System.Drawing">
+    <value>556, 11</value>
+  </data>
+  <data name="p16.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p16.TabIndex" type="System.Int32, mscorlib">
+    <value>5</value>
+  </data>
+  <data name="&gt;&gt;p16.Name" xml:space="preserve">
+    <value>p16</value>
+  </data>
+  <data name="&gt;&gt;p16.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p16.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p16.ZOrder" xml:space="preserve">
+    <value>40</value>
+  </data>
+  <data name="p15.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p15.Location" type="System.Drawing.Point, System.Drawing">
+    <value>447, 11</value>
+  </data>
+  <data name="p15.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p15.TabIndex" type="System.Int32, mscorlib">
+    <value>4</value>
+  </data>
+  <data name="&gt;&gt;p15.Name" xml:space="preserve">
+    <value>p15</value>
+  </data>
+  <data name="&gt;&gt;p15.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p15.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p15.ZOrder" xml:space="preserve">
+    <value>36</value>
+  </data>
+  <data name="p14.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p14.Location" type="System.Drawing.Point, System.Drawing">
+    <value>338, 11</value>
+  </data>
+  <data name="p14.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p14.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;p14.Name" xml:space="preserve">
+    <value>p14</value>
+  </data>
+  <data name="&gt;&gt;p14.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p14.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p14.ZOrder" xml:space="preserve">
+    <value>32</value>
+  </data>
+  <data name="p13.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p13.Location" type="System.Drawing.Point, System.Drawing">
+    <value>229, 11</value>
+  </data>
+  <data name="p13.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p13.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;p13.Name" xml:space="preserve">
+    <value>p13</value>
+  </data>
+  <data name="&gt;&gt;p13.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p13.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p13.ZOrder" xml:space="preserve">
+    <value>28</value>
+  </data>
+  <data name="p12.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p12.Location" type="System.Drawing.Point, System.Drawing">
+    <value>120, 11</value>
+  </data>
+  <data name="p12.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p12.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;p12.Name" xml:space="preserve">
+    <value>p12</value>
+  </data>
+  <data name="&gt;&gt;p12.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p12.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p12.ZOrder" xml:space="preserve">
+    <value>24</value>
+  </data>
+  <data name="p11.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="p11.Location" type="System.Drawing.Point, System.Drawing">
+    <value>11, 11</value>
+  </data>
+  <data name="p11.Size" type="System.Drawing.Size, System.Drawing">
+    <value>100, 100</value>
+  </data>
+  <data name="p11.TabIndex" type="System.Int32, mscorlib">
+    <value>0</value>
+  </data>
+  <data name="&gt;&gt;p11.Name" xml:space="preserve">
+    <value>p11</value>
+  </data>
+  <data name="&gt;&gt;p11.Type" xml:space="preserve">
+    <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;p11.Parent" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;p11.ZOrder" xml:space="preserve">
+    <value>52</value>
+  </data>
+  <data name="label2.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>182, 108</value>
+  </data>
+  <data name="label2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>38, 15</value>
+  </data>
+  <data name="label2.TabIndex" type="System.Int32, mscorlib">
+    <value>26</value>
+  </data>
+  <data name="label2.Text" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Name" xml:space="preserve">
+    <value>label2</value>
+  </data>
+  <data name="&gt;&gt;label2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label2.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;label2.ZOrder" xml:space="preserve">
+    <value>3</value>
+  </data>
+  <data name="gaeZone.Location" type="System.Drawing.Point, System.Drawing">
+    <value>10, 142</value>
+  </data>
+  <data name="gaeZone.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1428, 436</value>
+  </data>
+  <data name="gaeZone.TabIndex" type="System.Int32, mscorlib">
+    <value>29</value>
+  </data>
+  <data name="&gt;&gt;gaeZone.Name" xml:space="preserve">
+    <value>gaeZone</value>
+  </data>
+  <data name="&gt;&gt;gaeZone.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Panel, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;gaeZone.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;gaeZone.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="lblCanSayisi.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblCanSayisi.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblCanSayisi.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 21.75pt, style=Bold</value>
+  </data>
+  <data name="lblCanSayisi.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblCanSayisi.Location" type="System.Drawing.Point, System.Drawing">
+    <value>916, 9</value>
+  </data>
+  <data name="lblCanSayisi.Size" type="System.Drawing.Size, System.Drawing">
+    <value>186, 36</value>
+  </data>
+  <data name="lblCanSayisi.TabIndex" type="System.Int32, mscorlib">
+    <value>30</value>
+  </data>
+  <data name="lblCanSayisi.Text" xml:space="preserve">
+    <value>Kalan Can : </value>
+  </data>
+  <data name="&gt;&gt;lblCanSayisi.Name" xml:space="preserve">
+    <value>lblCanSayisi</value>
+  </data>
+  <data name="&gt;&gt;lblCanSayisi.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblCanSayisi.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblCanSayisi.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="lblseviye.Anchor" type="System.Windows.Forms.AnchorStyles, System.Windows.Forms">
+    <value>Top, Right</value>
+  </data>
+  <data name="lblseviye.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="lblseviye.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Century Gothic, 21.75pt, style=Bold</value>
+  </data>
+  <data name="lblseviye.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="lblseviye.Location" type="System.Drawing.Point, System.Drawing">
+    <value>627, 9</value>
+  </data>
+  <data name="lblseviye.Size" type="System.Drawing.Size, System.Drawing">
+    <value>108, 36</value>
+  </data>
+  <data name="lblseviye.TabIndex" type="System.Int32, mscorlib">
+    <value>31</value>
+  </data>
+  <data name="lblseviye.Text" xml:space="preserve">
+    <value>Seviye</value>
+  </data>
+  <data name="&gt;&gt;lblseviye.Name" xml:space="preserve">
+    <value>lblseviye</value>
+  </data>
+  <data name="&gt;&gt;lblseviye.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;lblseviye.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;lblseviye.ZOrder" xml:space="preserve">
     <value>0</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
@@ -2729,7 +4121,7 @@
     <value>Stretch</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1143, 614</value>
+    <value>1450, 772</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
