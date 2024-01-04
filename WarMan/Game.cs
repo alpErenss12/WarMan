@@ -14,7 +14,7 @@ namespace WarMan
         public System.Windows.Forms.Timer bombaTimer { get; set; }
         public int seviye { get; set; } = 1;
         public int skor { get; set; }
-        public int cansayisi { get; set; } = 300;
+        public int cansayisi { get; set; } = 3;
         private int startLocationX = 1, startLocationY = 2, ManDefaultLocationX = 11, ManDefaultLocationY = 116, totalTimeInSeconds, bombasayisi = 0;
         private Duraklat duraklat;
         private bool isMoveEnabled = true, isTuzakOlustu;
