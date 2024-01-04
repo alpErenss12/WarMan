@@ -3,7 +3,7 @@ namespace WarMan
     public partial class StartScreen : Form
     {
         private bool textBoxFocused = false;
-        public string oyuncuisim { get; set; }
+        public string oyuncuisim;
         public string oyuncuskor { get; set; }
 
         public StartScreen()
@@ -65,6 +65,7 @@ namespace WarMan
             {
                 oyuncuisim = txtGamerName.Text;
                 Game game = new Game();
+                game.IsimAl(oyuncuisim);
                 game.Show();
                 info info = new info();
                 info.Show();

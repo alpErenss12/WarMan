@@ -23,6 +23,17 @@
         {
             game.Enabled = true;
             System.Windows.Forms.Timer timer1 = ((Game)Application.OpenForms["Game"]).zamanlayici;
+            System.Windows.Forms.Timer bombaTimer = ((Game)Application.OpenForms["Game"]).bombaTimer;
+            System.Windows.Forms.Timer dusmanTimer = ((Game)Application.OpenForms["Game"]).dusmanTimer;
+            int seviye = ((Game)Application.OpenForms["Game"]).seviye;
+            if (seviye == 2)
+            {
+                bombaTimer.Start();
+            }
+            if (seviye == 3)
+            {
+                dusmanTimer.Start();
+            }
             timer1.Start();
             Close();
         }

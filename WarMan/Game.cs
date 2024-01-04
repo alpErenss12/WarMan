@@ -9,13 +9,15 @@ namespace WarMan
     {
         private TimeSpan gecenSure { get; set; }
         public System.Windows.Forms.Timer zamanlayici { get; set; }
+        public System.Windows.Forms.Timer dusmanTimer { get; set; }
+        public System.Windows.Forms.Timer bombaTimer { get; set; }
         public int seviye { get; set; } = 1;
         public int skor { get; set; } 
         public int cansayisi { get; set; } = 3;
         private int startLocationX = 1, startLocationY = 2, ManDefaultLocationX = 11, ManDefaultLocationY = 116, totalTimeInSeconds, bombasayisi = 0;
         private Duraklat duraklat;
-        private bool isMoveEnabled = true, isTuzakOlustu, oyunBitti = false;
-        string secilenHucreIsim, isim = ((StartScreen)Application.OpenForms["StartScreen"]).oyuncuisim;
+        private bool isMoveEnabled = true, isTuzakOlustu;
+        string secilenHucreIsim, isim;
         List<string> Hucreler = new List<string>
             {
                 "p11", "p12", "p13", "p14", "p15", "p16", "p17", "p18", "p19", "p110", "p111", "p112", 
@@ -28,7 +30,6 @@ namespace WarMan
         List<Tuple<int, int>> tuzakKonum = new List<Tuple<int, int>>();
         PictureBox tuzakHucre = new PictureBox();
         private List<PictureBox> dusmanPictureBoxList = new List<PictureBox>();
-        private System.Windows.Forms.Timer dusmanTimer, bombaTimer;
         List<Tuple<int, int>> bombakonum = new List<Tuple<int, int>>();
         PictureBox bombaPictureBox = new PictureBox();
 
@@ -88,6 +89,11 @@ namespace WarMan
             lblUyari.BringToFront();
         }
 
+        public void IsimAl(string oyuncuIsim)
+        {
+            isim = oyuncuIsim;
+        }
+
         private void Game_FormClosed(object sender, FormClosedEventArgs e)
         {
             StartScreen form = new StartScreen();
@@ -104,6 +110,14 @@ namespace WarMan
                     duraklat.Show();
                     this.Enabled = false;
                     zamanlayici.Stop();
+                    if (seviye == 2)
+                    {
+                        bombaTimer.Stop();
+                    }
+                    if (seviye == 3)
+                    {
+                        dusmanTimer.Stop();
+                    }
                 }
             }
             if (isMoveEnabled)
@@ -250,7 +264,6 @@ namespace WarMan
                     zamanlayici.Stop();
                     dusmanTimer.Stop();
                     SaveScoreToTxt();
-                    oyunBitti = true;
                 }
             }
             BilgiGonder();
@@ -401,7 +414,6 @@ namespace WarMan
             int x = 13;
             int y = random.Next(1, 5);
             string kontrol = "p" + y + x;
-            label2.Text = kontrol;
             PictureBox kontrolPictureBox = gaeZone.Controls.Find(kontrol, true).FirstOrDefault() as PictureBox;
             Point point = new Point(kontrolPictureBox.Location.X, kontrolPictureBox.Location.Y);
             dusmanPictureBox.Location = point;

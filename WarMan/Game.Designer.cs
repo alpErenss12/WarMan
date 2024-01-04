@@ -84,7 +84,6 @@
             p13 = new PictureBox();
             p12 = new PictureBox();
             p11 = new PictureBox();
-            label2 = new Label();
             gaeZone = new Panel();
             lblUyari = new Label();
             lblCanSayisi = new Label();
@@ -530,12 +529,6 @@
             p11.Name = "p11";
             p11.TabStop = false;
             // 
-            // label2
-            // 
-            resources.ApplyResources(label2, "label2");
-            label2.ForeColor = Color.White;
-            label2.Name = "label2";
-            // 
             // gaeZone
             // 
             gaeZone.BackColor = Color.Transparent;
@@ -625,13 +618,13 @@
             Controls.Add(lblseviye);
             Controls.Add(lblCanSayisi);
             Controls.Add(gaeZone);
-            Controls.Add(label2);
             Controls.Add(lblsure);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.FixedSingle;
             KeyPreview = true;
             MaximizeBox = false;
             Name = "Game";
+            WindowState = FormWindowState.Maximized;
             FormClosed += Game_FormClosed;
             Load += Game_Load;
             KeyDown += Game_KeyDown;
@@ -751,7 +744,6 @@
         private PictureBox p42;
         private PictureBox p41;
         private PictureBox man;
-        private Label label2;
         private Panel gaeZone;
         private Label lblCanSayisi;
         private Label lblseviye;
