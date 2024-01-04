@@ -86,6 +86,7 @@
             p11 = new PictureBox();
             label2 = new Label();
             gaeZone = new Panel();
+            lblUyari = new Label();
             lblCanSayisi = new Label();
             lblseviye = new Label();
             ((System.ComponentModel.ISupportInitialize)man).BeginInit();
@@ -160,7 +161,7 @@
             // 
             // man
             // 
-            man.BackColor = Color.Red;
+            man.BackColor = Color.LightSlateGray;
             resources.ApplyResources(man, "man");
             man.Name = "man";
             man.TabStop = false;
@@ -537,6 +538,8 @@
             // 
             // gaeZone
             // 
+            gaeZone.BackColor = Color.Transparent;
+            gaeZone.Controls.Add(lblUyari);
             gaeZone.Controls.Add(man);
             gaeZone.Controls.Add(p26);
             gaeZone.Controls.Add(p413);
@@ -592,6 +595,13 @@
             gaeZone.Controls.Add(p11);
             resources.ApplyResources(gaeZone, "gaeZone");
             gaeZone.Name = "gaeZone";
+            // 
+            // lblUyari
+            // 
+            resources.ApplyResources(lblUyari, "lblUyari");
+            lblUyari.BackColor = Color.Transparent;
+            lblUyari.ForeColor = Color.Red;
+            lblUyari.Name = "lblUyari";
             // 
             // lblCanSayisi
             // 
@@ -679,6 +689,7 @@
             ((System.ComponentModel.ISupportInitialize)p12).EndInit();
             ((System.ComponentModel.ISupportInitialize)p11).EndInit();
             gaeZone.ResumeLayout(false);
+            gaeZone.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -744,5 +755,6 @@
         private Panel gaeZone;
         private Label lblCanSayisi;
         private Label lblseviye;
+        private Label lblUyari;
     }
 }

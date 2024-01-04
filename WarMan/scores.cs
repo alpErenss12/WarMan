@@ -11,6 +11,7 @@ namespace WarMan
         public scores()
         {
             InitializeComponent();
+            LoadScoresToDataGridView();
         }
 
         private void button1_Click(object sender, EventArgs e)
@@ -41,21 +42,65 @@ namespace WarMan
 
         private void LoadScoresToDataGridView()
         {
+            string fileName = "scores.txt";
+
             try
             {
-                // Dosyadan tüm skorları oku
-                List<string> lines = File.ReadAllLines(FileName).ToList();
-
-                // Dosyadaki tüm skorları DataGridView'e ekle
-                skorlarGV.Rows.Clear();
-                foreach (string line in lines.Take(MaxScoresToShow))
+                if (File.Exists(fileName))
                 {
-                    skorlarGV.Rows.Add(line);
+                    List<ScoreInfo> scores = new List<ScoreInfo>();
+                    string[] lines = File.ReadAllLines(fileName);
+
+                    foreach (string line in lines)
+                    {
+                        ScoreInfo score = ParseScoreInfo(line);
+                        scores.Add(score);
+                    }
+
+                    // Puanlara göre büyükten küçüğe sıralama
+                    var sortedScores = scores.OrderByDescending(s => s.Puan).Take(5).ToList();
+
+                    // DataGridView'e ekleme
+                    skorlarGV.DataSource = sortedScores;
                 }
             }
             catch (Exception ex)
             {
                 MessageBox.Show($"Hata: {ex.Message}");
+            }
+        }
+
+        private ScoreInfo ParseScoreInfo(string line)
+        {
+            string[] parts = line.Split(',');
+
+            string oyuncu = parts[0].Split('=')[1].Trim();
+            int puan = int.Parse(parts[1].Split('=')[1].Trim());
+            int kalanCan = int.Parse(parts[2].Split('=')[1].Trim());
+            int gecenSure = int.Parse(parts[3].Split('=')[1].Trim().Split(' ')[0]);
+
+            return new ScoreInfo(oyuncu, puan, kalanCan, gecenSure);
+        }
+
+        public class ScoreInfo
+        {
+            public string Oyuncu { get; set; }
+            public int Puan { get; set; }
+            public int KalanCan { get; set; }
+            public int GecenSure { get; set; }
+
+            public ScoreInfo(string oyuncu, int puan, int kalanCan, int gecenSure)
+            {
+                Oyuncu = oyuncu;
+                Puan = puan;
+                KalanCan = kalanCan;
+                GecenSure = gecenSure;
+            }
+
+            public int CompareTo(ScoreInfo other)
+            {
+                // Puanlara göre azalan sıralama yap
+                return other.Puan.CompareTo(Puan);
             }
         }
     }

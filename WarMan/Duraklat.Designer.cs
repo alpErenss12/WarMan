@@ -30,7 +30,6 @@
         {
             label1 = new Label();
             btnDevamet = new Button();
-            btnRestart = new Button();
             btnAnamenu = new Button();
             btnOyundancik = new Button();
             btnshowcontrols = new Button();
@@ -64,23 +63,6 @@
             btnDevamet.UseVisualStyleBackColor = true;
             btnDevamet.Click += btnDevamet_Click;
             // 
-            // btnRestart
-            // 
-            btnRestart.FlatAppearance.BorderColor = Color.White;
-            btnRestart.FlatAppearance.BorderSize = 2;
-            btnRestart.FlatAppearance.MouseDownBackColor = Color.DimGray;
-            btnRestart.FlatAppearance.MouseOverBackColor = Color.Gray;
-            btnRestart.FlatStyle = FlatStyle.Flat;
-            btnRestart.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
-            btnRestart.ForeColor = Color.White;
-            btnRestart.Location = new Point(30, 141);
-            btnRestart.Name = "btnRestart";
-            btnRestart.Size = new Size(265, 51);
-            btnRestart.TabIndex = 2;
-            btnRestart.Text = "Yeniden Başlat";
-            btnRestart.UseVisualStyleBackColor = true;
-            btnRestart.Click += btnRestart_Click;
-            // 
             // btnAnamenu
             // 
             btnAnamenu.FlatAppearance.BorderColor = Color.White;
@@ -90,7 +72,7 @@
             btnAnamenu.FlatStyle = FlatStyle.Flat;
             btnAnamenu.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnAnamenu.ForeColor = Color.White;
-            btnAnamenu.Location = new Point(30, 198);
+            btnAnamenu.Location = new Point(30, 141);
             btnAnamenu.Name = "btnAnamenu";
             btnAnamenu.Size = new Size(265, 51);
             btnAnamenu.TabIndex = 3;
@@ -107,7 +89,7 @@
             btnOyundancik.FlatStyle = FlatStyle.Flat;
             btnOyundancik.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnOyundancik.ForeColor = Color.White;
-            btnOyundancik.Location = new Point(30, 312);
+            btnOyundancik.Location = new Point(30, 255);
             btnOyundancik.Name = "btnOyundancik";
             btnOyundancik.Size = new Size(265, 51);
             btnOyundancik.TabIndex = 4;
@@ -124,7 +106,7 @@
             btnshowcontrols.FlatStyle = FlatStyle.Flat;
             btnshowcontrols.Font = new Font("Segoe UI Semibold", 15.75F, FontStyle.Bold, GraphicsUnit.Point);
             btnshowcontrols.ForeColor = Color.White;
-            btnshowcontrols.Location = new Point(30, 255);
+            btnshowcontrols.Location = new Point(30, 198);
             btnshowcontrols.Name = "btnshowcontrols";
             btnshowcontrols.Size = new Size(265, 51);
             btnshowcontrols.TabIndex = 5;
@@ -137,11 +119,10 @@
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             BackColor = Color.Black;
-            ClientSize = new Size(323, 393);
+            ClientSize = new Size(323, 346);
             Controls.Add(btnshowcontrols);
             Controls.Add(btnOyundancik);
             Controls.Add(btnAnamenu);
-            Controls.Add(btnRestart);
             Controls.Add(btnDevamet);
             Controls.Add(label1);
             FormBorderStyle = FormBorderStyle.None;
@@ -160,7 +141,6 @@
 
         private Label label1;
         private Button btnDevamet;
-        private Button btnRestart;
         private Button btnAnamenu;
         private Button btnOyundancik;
         private Button btnshowcontrols;

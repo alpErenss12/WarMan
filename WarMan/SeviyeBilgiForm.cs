@@ -26,47 +26,66 @@
 
         private void btnDevam_Click(object sender, EventArgs e)
         {
-            if (seviye < 3)
+            if (kalancan != 0)
             {
-                if (row1 == 13)
+                if (seviye < 3)
                 {
-                    System.Windows.Forms.Timer timer1 = ((Game)Application.OpenForms["Game"]).zamanlayici;
-                    timer1.Start();
+                    if (row1 == 13)
+                    {
+                        System.Windows.Forms.Timer timer1 = ((Game)Application.OpenForms["Game"]).zamanlayici;
+                        timer1.Start();
+                    }
+                }
+                else if (seviye == 3)
+                {
+                    if (row1 == 13)
+                    {
+                        game.Close();
+                    }
                 }
             }
-            else if (seviye == 3)
+            else if (kalancan == 0)
             {
-                if (row1 == 13)
-                {
-                    game.Close();
-                }
+                game.Close();
             }
             this.Close();
         }
 
         private void SeviyeBilgiForm_Load(object sender, EventArgs e)
         {
-            if (seviye < 3)
+            if (kalancan != 0)
             {
-                if (row1 == 13)
+                if (seviye < 3)
                 {
-                    lblseviye.Text = "Tebrikler " + seviye + ". seviyeyi bitirdiniz. Şuanda " + (seviye + 1) + ". seviyeye geçmektesiniz." +
-                    "\nDevam etmek için 'Tamam' tuşuna basınız.";
-                    lblskor.Text = "Mevcut skor : " + skor;
-                    lblKalanCan.Text = "Kalan Can : " + kalancan;
-                    lblbitis.Visible = false;
+                    if (row1 == 13)
+                    {
+                        lblseviye.Text = "Tebrikler " + seviye + ". seviyeyi bitirdiniz. Şuanda " + (seviye + 1) + ". seviyeye geçmektesiniz." +
+                        "\nDevam etmek için 'Tamam' tuşuna basınız.";
+                        lblskor.Text = "Mevcut skor : " + skor;
+                        lblKalanCan.Text = "Kalan Can : " + kalancan;
+                        lblbitis.Visible = false;
+                    }
+                }
+                else if (seviye == 3)
+                {
+                    if (row1 == 13)
+                    {
+                        lblbitis.Text = "Tebrikler oyunu bitirdiniz.";
+                        lblseviye.Visible = false;
+                        lblskor.Text = "Skor : " + skor;
+                        lblKalanCan.Text = "Kalan Can : " + kalancan;
+                    }
                 }
             }
-            else if (seviye == 3)
+            else if (kalancan == 0)
             {
-                if (row1 == 13)
-                {
-                    lblbitis.Text = "Tebrikler oyunu bitirdiniz.";
-                    lblseviye.Text = " ";
-                    lblskor.Text = "Skor : " + skor;
-                    lblKalanCan.Text = "Kalan Can : " + kalancan;
-                }
+                lblseviye.Text = "Can hakkınızın hepsini bitirdiniz.";
+                lblbitis.Text = "Oyun bitti. Kaybettiniz.";
+                lblskor.Visible = false;
+                lblGuncelSure.Visible = false;
+                lblKalanCan.Text = "Kalan Can : " + kalancan;
             }
+            
         }
     }
 }
