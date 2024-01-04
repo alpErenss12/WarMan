@@ -16,6 +16,7 @@ namespace WarMan
 
         private void button1_Click(object sender, EventArgs e)
         {
+            // form oyun bittikten sonra açılmışsa oyun formunu ve kendisini kapatsın, anasayfadayken açılmışsa sadece kendisini kapatsın
             if (this.game != null && !game.IsDisposed)
             {
                 startScreen.Show();
@@ -28,7 +29,7 @@ namespace WarMan
         {
             if (e.KeyChar == (char)Keys.Escape)
             {
-                button1.PerformClick();
+                button1.PerformClick(); // esc tuşuna basıldığında tamam tuşuna basılsın
             }
         }
 
@@ -36,14 +37,14 @@ namespace WarMan
         {
             if (e.KeyCode == Keys.S)
             {
-                button1.PerformClick();
+                button1.PerformClick(); // s tuşuna basıldığında tamam tuşuna basılsın
             }
         }
 
         private void LoadScoresToDataGridView()
         {
             string fileName = "scores.txt";
-
+            // skorlar text dosyasından çekilerek tabloya verilsin
             try
             {
                 if (File.Exists(fileName))
@@ -78,7 +79,7 @@ namespace WarMan
             int puan = int.Parse(parts[1].Split('=')[1].Trim());
             int kalanCan = int.Parse(parts[2].Split('=')[1].Trim());
             int gecenSure = int.Parse(parts[3].Split('=')[1].Trim().Split(' ')[0]);
-
+            // skor verileri ayrılsın
             return new ScoreInfo(oyuncu, puan, kalanCan, gecenSure);
         }
 
@@ -88,7 +89,7 @@ namespace WarMan
             public int Puan { get; set; }
             public int KalanCan { get; set; }
             public int GecenSure { get; set; }
-
+            // skor verileri skora göre sıralansın
             public ScoreInfo(string oyuncu, int puan, int kalanCan, int gecenSure)
             {
                 Oyuncu = oyuncu;

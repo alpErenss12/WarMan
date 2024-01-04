@@ -50,7 +50,7 @@
             panel1.Controls.Add(btnDevam);
             panel1.Location = new Point(0, -1);
             panel1.Name = "panel1";
-            panel1.Size = new Size(803, 291);
+            panel1.Size = new Size(798, 291);
             panel1.TabIndex = 0;
             // 
             // lblbitis
@@ -61,7 +61,7 @@
             lblbitis.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblbitis.ForeColor = Color.White;
             lblbitis.ImeMode = ImeMode.NoControl;
-            lblbitis.Location = new Point(251, 102);
+            lblbitis.Location = new Point(246, 102);
             lblbitis.Name = "lblbitis";
             lblbitis.Size = new Size(58, 28);
             lblbitis.TabIndex = 37;
@@ -75,7 +75,7 @@
             lblskor.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblskor.ForeColor = Color.White;
             lblskor.ImeMode = ImeMode.NoControl;
-            lblskor.Location = new Point(534, 185);
+            lblskor.Location = new Point(509, 185);
             lblskor.Name = "lblskor";
             lblskor.Size = new Size(60, 28);
             lblskor.TabIndex = 36;
@@ -89,7 +89,7 @@
             lblKalanCan.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblKalanCan.ForeColor = Color.White;
             lblKalanCan.ImeMode = ImeMode.NoControl;
-            lblKalanCan.Location = new Point(11, 185);
+            lblKalanCan.Location = new Point(6, 185);
             lblKalanCan.Name = "lblKalanCan";
             lblKalanCan.Size = new Size(135, 28);
             lblKalanCan.TabIndex = 35;
@@ -103,7 +103,7 @@
             lblGuncelSure.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblGuncelSure.ForeColor = Color.White;
             lblGuncelSure.ImeMode = ImeMode.NoControl;
-            lblGuncelSure.Location = new Point(222, 185);
+            lblGuncelSure.Location = new Point(256, 185);
             lblGuncelSure.Name = "lblGuncelSure";
             lblGuncelSure.Size = new Size(61, 28);
             lblGuncelSure.TabIndex = 34;
@@ -117,7 +117,7 @@
             lblseviye.Font = new Font("Century Gothic", 18F, FontStyle.Bold, GraphicsUnit.Point);
             lblseviye.ForeColor = Color.White;
             lblseviye.ImeMode = ImeMode.NoControl;
-            lblseviye.Location = new Point(11, 24);
+            lblseviye.Location = new Point(6, 24);
             lblseviye.Name = "lblseviye";
             lblseviye.Size = new Size(87, 28);
             lblseviye.TabIndex = 32;
@@ -127,7 +127,7 @@
             // btnDevam
             // 
             btnDevam.FlatStyle = FlatStyle.Flat;
-            btnDevam.Location = new Point(604, 227);
+            btnDevam.Location = new Point(600, 227);
             btnDevam.Name = "btnDevam";
             btnDevam.Size = new Size(186, 50);
             btnDevam.TabIndex = 0;
@@ -139,7 +139,7 @@
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(804, 290);
+            ClientSize = new Size(800, 290);
             Controls.Add(panel1);
             FormBorderStyle = FormBorderStyle.None;
             Name = "SeviyeBilgiForm";

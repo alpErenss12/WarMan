@@ -88,6 +88,7 @@
             lblUyari = new Label();
             lblCanSayisi = new Label();
             lblseviye = new Label();
+            pictureBox1 = new PictureBox();
             ((System.ComponentModel.ISupportInitialize)man).BeginInit();
             ((System.ComponentModel.ISupportInitialize)p413).BeginInit();
             ((System.ComponentModel.ISupportInitialize)p313).BeginInit();
@@ -142,6 +143,7 @@
             ((System.ComponentModel.ISupportInitialize)p12).BeginInit();
             ((System.ComponentModel.ISupportInitialize)p11).BeginInit();
             gaeZone.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // label1
@@ -531,7 +533,9 @@
             // 
             // gaeZone
             // 
+            resources.ApplyResources(gaeZone, "gaeZone");
             gaeZone.BackColor = Color.Transparent;
+            gaeZone.Controls.Add(pictureBox1);
             gaeZone.Controls.Add(lblUyari);
             gaeZone.Controls.Add(man);
             gaeZone.Controls.Add(p26);
@@ -586,7 +590,6 @@
             gaeZone.Controls.Add(p46);
             gaeZone.Controls.Add(p19);
             gaeZone.Controls.Add(p11);
-            resources.ApplyResources(gaeZone, "gaeZone");
             gaeZone.Name = "gaeZone";
             // 
             // lblUyari
@@ -610,6 +613,13 @@
             lblseviye.ForeColor = Color.White;
             lblseviye.Name = "lblseviye";
             // 
+            // pictureBox1
+            // 
+            resources.ApplyResources(pictureBox1, "pictureBox1");
+            pictureBox1.BackColor = Color.Transparent;
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.TabStop = false;
+            // 
             // Game
             // 
             resources.ApplyResources(this, "$this");
@@ -628,6 +638,7 @@
             FormClosed += Game_FormClosed;
             Load += Game_Load;
             KeyDown += Game_KeyDown;
+            Resize += Game_Resize;
             ((System.ComponentModel.ISupportInitialize)man).EndInit();
             ((System.ComponentModel.ISupportInitialize)p413).EndInit();
             ((System.ComponentModel.ISupportInitialize)p313).EndInit();
@@ -683,6 +694,7 @@
             ((System.ComponentModel.ISupportInitialize)p11).EndInit();
             gaeZone.ResumeLayout(false);
             gaeZone.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
             PerformLayout();
         }
@@ -748,5 +760,6 @@
         private Label lblCanSayisi;
         private Label lblseviye;
         private Label lblUyari;
+        private PictureBox pictureBox1;
     }
 }
